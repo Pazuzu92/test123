@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/slot_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/slot_bg" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/money_count" />
+
+    <TextView
+        android:id="@+id/money_count"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text=""
+        android:textColor="@color/teal_200"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/slot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/slot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/slot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:id="@+id/slot4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_4" />
+
+        <ImageView
+            android:id="@+id/slot5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/img_5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/slot7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/slot8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:id="@+id/slot6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/slot9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_4" />
+
+        <ImageView
+            android:id="@+id/slot10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/img_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/slot11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:id="@+id/slot12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_3" />
+
+        <ImageView
+            android:id="@+id/slot13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_5" />
+
+        <ImageView
+            android:id="@+id/slot14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/img_2" />
+
+        <ImageView
+            android:id="@+id/slot15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/img_4" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slot_bg"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/spin_btn" />
+
+    <ImageView
+        android:id="@+id/bet_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bet_bg"
+        android:layout_below="@+id/slot_bg"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="140dp"/>
+
+    <ImageView
+        android:id="@+id/plus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus_btn"
+        android:layout_below="@+id/bet_bg"
+        android:layout_toRightOf="@+id/bet_bg"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="-40dp"/>
+
+    <ImageView
+        android:id="@+id/minus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/minus_btn"
+        android:layout_below="@+id/bet_bg"
+        android:layout_toLeftOf="@+id/plus_btn"
+        android:layout_marginTop="-40dp"
+        android:layout_marginRight="100dp"/>
+
+    <TextView
+        android:id="@+id/bet"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/bet_bg"
+        android:layout_toLeftOf="@+id/plus_btn"
+        android:layout_marginTop="-33dp"
+        android:text=""
+        android:layout_marginRight="40dp"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp" />
+
+</RelativeLayout>
