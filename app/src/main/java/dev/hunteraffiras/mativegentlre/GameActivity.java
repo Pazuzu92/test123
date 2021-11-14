@@ -189,7 +189,4 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
-    //делаю изменения
-
-    //yerghesrhg
 }
