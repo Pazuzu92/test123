@@ -189,4 +189,7 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
+    private void foo(){
+        //мастер ушел вперед
+    }
 }
